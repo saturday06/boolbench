@@ -1,0 +1,11 @@
+[package]
+name = "hakatashi"
+version = "0.1.0"
+authors = ["Isamu Mogi <isamu@leafytree.jp>"]
+
+[dependencies]
+fnv = "1"
+
+[profile.bench]
+opt-level = 3
+lto = true
